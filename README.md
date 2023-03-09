@@ -1,13 +1,13 @@
 # invertible Kernel PCA (ikPCA)
 
-![overview image](doc/method_ilustr.pdf){width=70%}
-
 Official implementation of the paper:\
 **Invertible Kernel PCA with Random Fourier Features**, 2023, [[arXiv]](TODO). \
 [Daniel Gedon](https://dgedon.github.io/),
 [Antonio H. Ribeiro](https://antonior92.github.io/),
 [Niklas Wahlström](http://www.it.uu.se/katalog/nikwa778),
 [Thomas B. Schön](http://user.it.uu.se/~thosc112/).\
+
+![overview image](doc/method_ilustr.png)
 
 In the paper we propose a method which approximates the inverse of a kernel PCA (kPCA).
 This is done by utilizing random Fourier features and exploiting the fact that the nonlinearity in those features
@@ -16,7 +16,7 @@ are invertible in a subdomain. We present results for denoising on three data se
 [USPS](https://scikit-learn.org/stable/auto_examples/applications/plot_digits_denoising.html#sphx-glr-auto-examples-applications-plot-digits-denoising-py) and
 ECGs from the [CPSC dataset](http://2018.icbeb.org/Challenge.html). 
 
----
+
 ## Installation
 The repository is tested with list of requirements in `requirements.txt`. To install the requirements, run the following command:
 ```
