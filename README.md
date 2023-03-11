@@ -1,7 +1,7 @@
 # invertible Kernel PCA (ikPCA)
 
 Official implementation of the paper:\
-**Invertible Kernel PCA with Random Fourier Features**, 2023, [[arXiv]](TODO). \
+**Invertible Kernel PCA with Random Fourier Features**, 2023, [[arXiv]](https://arxiv.org/abs/2303.05043). \
 [Daniel Gedon](https://dgedon.github.io/),
 [Antonio H. Ribeiro](https://antonior92.github.io/),
 [Niklas Wahlström](http://www.it.uu.se/katalog/nikwa778),
